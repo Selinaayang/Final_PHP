@@ -1,0 +1,230 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*--header------------------------------------------------------------*/
+
+.header img{
+    float: left;
+    height: 130px;
+    width: 180px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.header h1{
+    float: left;
+    font-size: 55px;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-family: "NSimSun",Arial,sans-serif;
+    color: #8B4513;
+}
+
+.header{
+    background: #F5F5DC;
+    height: 150px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;    
+}
+
+.link{
+    float: right;
+    margin-top: 120px;
+    margin-right: 10px;
+}
+
+.link a{
+    text-decoration:none;
+    margin-left: 5px;
+    font-family: "Microsoft JhengHei",Arial,sans-serif;
+    color: 	#8B4513;
+}
+
+.link a:hover{
+    color: 	#66CDAA;
+}
+
+/*--list---------------------------------------------------------------*/
+
+.list{
+    height: 600px;
+    width: 230px;
+    background: #F5F5DC;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.list li{
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.list a{
+    text-decoration:none;
+    font-size: 22px;
+    font-family: "NSimSun",Arial,sans-serif;
+    color: #8B4513;
+}
+
+.list a:hover{
+    color: #fff;
+    background: #2F4F4F;
+}
+
+.list p{
+    height: 40px;
+    width: auto;
+    background: #2F4F4F;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    font-family: "NSimSun",Arial,sans-serif;
+    font-size: 24px;
+}
+
+
+/*--board---------------------------------------------------------------*/
+
+.board{
+    width: 750px;
+    height: 600px;
+    margin: 15px;
+    margin-right: 5px;
+    background: #F5F5DC;
+    float: left;
+}
+
+.news{
+    background: #2F4F4F;
+    width: 750px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    color: #fff;
+    font-family: "NSimSun",Arial,sans-serif;
+    font-size: 24px;
+}
+
+.board li{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.board a {
+    text-decoration:none;
+    color: #2F4F4F;
+    font-size: 18px;
+    font-family: "Microsoft JhengHei",Arial,sans-serif;
+}
+
+.board a:hover{
+    color: #FF8C00;
+}
+
+/*--resourse---------------------------------------------------------*/
+
+.resourse{
+    height: 600px;
+    width: 310px;
+    background: #F5F5DC;
+    margin: 15px;
+    margin-right: 5px;
+    float: left;
+}
+
+.res{
+    background: #2F4F4F;
+    width: 310px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-family: "NSimSun",Arial,sans-serif;
+}
+
+.resourse li{
+    margin: 15px;
+}
+
+.resourse a{
+    text-decoration:none;
+    color: #2F4F4F;
+    font-size: 18px;
+    font-family: "Microsoft JhengHei",Arial,sans-serif;
+}
+
+.resourse a:hover{
+    color: #FF8C00;
+}
+/*---clear--------------------------------------------------------------*/
+
+.clear{
+    clear: both;
+}
+
+/*---footer---------------------------------------------------------------*/
+
+.footer{
+    height: 160px;
+    width: auto;
+    background: #2F4F4F;
+    margin: 15px;
+    margin-left: 10px;
+    padding-top: 15px;
+}
+
+.footer p {
+    text-align: center;
+    margin-top: 15px;
+    font-family: "Microsoft JhengHei",Arial,sans-serif;
+    color: #fff;
+}
